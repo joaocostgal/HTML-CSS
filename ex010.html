@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUDOS</title>
+    <style>
+        p{
+            font: normal 15px arial;
+            color: rgba(0, 0, 0, 0.712);
+        
+        }
+        div{
+            background-color: rgb(13, 18, 31);
+            padding: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            border-radius: 5px;
+            text-align: center;
+        }
+        div > p {
+            display: none;
+           
+        }
+        div:hover > p{
+            display: block;
+            color: white;
+            background-color: rgb(52, 52, 87);
+            border-radius: 5px;
+            height: 25px;
+            padding: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .botao:hover{
+            background-color: rgb(0, 195, 255);
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+<h1>Apostila 009: Pseudo-classes</h1>
+<p>clique no link para ser direcionado para página personalizada</p>
+<p><a href="ex010b.html">clique aqui</a></p>
+<p>no HTML as <strong>Pseudo-classes</strong> são representadas em CSS por <strong>:</strong></p>
+<pre>
+    Exemplo:
+        div:hover{
+            background-color: yellow;
+            }
+    esse comando fará com que ao passar o mouse por cima de uma div, sua cor de funde se altere    
+</pre>
+<h2>modelo de div interativo</h2>
+<p>modelo de ocultação de texto dentro de uma div</p>
+<pre>
+    div  p{
+        display: none;
+        }
+    div:hover > p{
+        display: block;
+        color: white;
+        background-color: red;
+        width: 300px;
+        }
+<p> feito isso, o texto oculto, aparecerá somente quando o mouse passar por cima da div</p>
+</pre>
+<p>passe o cursor do mouse pelo menu</p>
+<div>
+    Menu
+    <p class="botao">Login</p>
+    <p class="botao">cadastrar</p>
+    <p class="botao">sair</p>
+</div>
+
+
+
+
+    <p><a href="ex011.html">Clique aqui</a> para acesar o proximo conteudo do estudo de HTML</p>
+    <p><a href="ex009.html">clique aqui</a> para voltar à apostila anterior</p>
+</body>
+</html>

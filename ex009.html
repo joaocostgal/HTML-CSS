@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUDOS</title>
+    <style>
+        p{
+            font: normal 15px arial;
+            color: rgba(0, 0, 0, 0.712);
+        
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Apostila 008: Seletores personalizados</h1>
+    <p>Clique no link para ser direcionado para página personalizada</p>
+    <p><a href="ex009b.html">Clique aqui</a></p>
+    <h2>personalização de IDs</h2>
+    <p>O id é um comando feito para inserir um codigo um unico elemento, assim podendo personaliza-lo de forma exclusiva</p>
+    <p>para inserir um id a um comando:</p>
+    <pre>
+    Exemplo:
+        h1 id="nome"/h1
+    Após fazer isso, basta identificar o campo no código em CSS
+        h1#nome{} 
+    </pre>
+    <p>tudo que em HTML é ID, em CSS fica como #</p>
+    <h2>personalização de Classes</h2>
+    <p>Uma classe pode ser utilizada para utilizar a mesma configuração para mais de um elemento</p>
+    <p>para inserir uma classe a um comando:</p>
+    <pre>
+    Exemplo    
+        h2 class="nome"/h2
+    Após fazer isso, basta identificar o campo no código em CSS
+        h2.nome{
+            background-color: white;
+            } 
+    </pre>
+    <p>tudo que me HTML for <strong>class</strong>, em CSS se torna <strong>.</strong></p>
+    <p>OBS: Você pode utilizar a classe em qualquer elemento textual</p>
+    <p>Você pode inserir duas classes no mesmo objeto:</p>
+    <pre>
+        p class="nome1 nome2" TEXTO /p
+    </pre>
+    <p>Não existe a necessidade de se colocar separadores, apenas o <strong>espaço</strong></p>
+    <p>utilize a tag <strong>/span</strong> para poder inserir uma clase em um trecho especifico do texto</p>
+    <p>Você pode utilizr um <strong>id</strong> e uma <strong>calsse</strong> em um mesmo elemento</p>
+    <pre>
+        h1 id="nomeid" class="nomeclass" /h1
+    </pre>
+    <h3>Regras de hierarquia</h3>
+    <ul>
+        <li>configurações genericas</li>
+        <pre>
+    h1{
+        color: white;
+        }
+        </pre>
+        <li>configuraçoes personalizadas</li>
+        <pre>
+    h1#nomeid{
+        color: green;
+        }
+        </pre>
+    </ul>
+    <p>as configurações semprem herdam as configurações da camada superior, mas as novas se sobrepoem</p>
+
+
+    <p><a href="ex010.html">Clique aqui</a> para acesar o proximo conteudo do estudo de HTML</p>
+    <p><a href="ex008.html">clique aqui</a> para voltar à apostila anterior</p>
+</body>
+</html>

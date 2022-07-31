@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUDOS</title>
+    <style>
+        p{
+            font: normal 15px arial;
+            color: rgba(0, 0, 0, 0.712);
+        }
+    </style>
+</head>
+<body>
+    <h1>Apostila 005: Mídias</h1>
+    <h2>Imagens:</h2>
+    <h3>Imagem dinamica</h3>
+    <p>abrindo imagens com tamanhos diferentes, sendo elas abertas em aparelhos diferentes ou com alteração da tela do navegador</p>
+    <h3>imagem flexível</h3>
+    <p>mude o tamanho do navegador para alterar o tamanho da imagem</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="IMAGENS/imgP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMAGENS/imgM.png" type="image/png">
+        <img src="IMAGENS/imgG.png" alt="fotoflet">
+        
+    </picture>
+    <p>para isso, abra um tag /picture e dentro dela utilize a tag /source:media-type para colocar uma imagem flexível</p>
+    <p>após isso basta colocar a imagem em srcset e mudar seu type para image/png</p>
+    <p>OBS: par que não ocorra erro com suas imagens, você deve colocar a tag / soucer em ordem de acordo com o tamanho das imagenes</p>
+    <h2>Audios:</h2>
+    <p>arquivo de audio</p>
+    <audio src="AUDIOS/FiestaPagana.mp3" controls ></audio>
+    <p>para inserir um arquivo de audio, utilize a tag /audio e coloque o arquivo .mp3</p>
+    <p>utilize o parametro <strong>controls</strong> dentro da tag /audio</p>
+    <p>o comando <strong>autoplay</strong> pode ser utilizado caso deseje que o audio se inicie assim que a página for aberta</p>
+    <p>você pode utilizar outra maneira de anexar um arquivo de audio utilizando a tag /audio sem a src e inserirndo a tag sourcer:src para colocar o arquivo</p>
+    <p>OBS:voce ainda deve utilizar o parametro <strong>controls</strong> para da play no audio</p>
+    <audio controls>
+        <source src="AUDIOS/FiestaPagana.mp3" type="audio/mpeg">
+    </audio>
+    <p>utilize o parametro <strong>loop</strong> caso queira fazer com que sua musica seja tocara repetidas vezes</p>
+    <p>fique atento ao formato do audio sendo eles .mpeg/ .ogg/ .wav para colocar no parameto <strong>type</strong></p>
+    <h2>Videos:</h2>
+    <p>videos hospedado localmente (videos hospedados em seu próprio servidor</p>
+    <video src="VIDEOS/video.mp4" width="400" controls></video>
+    <p>para colocar videos no seu site utilize a tag /videos</p>
+    <p>caso queria ajustar seu tamanha utilizer o parametro <strong>width</strong> para ajustar seu tamanho e o parametro <strong>controls</strong> para por uma interface de funcionamente, assim como feito nos arquivos de audio</p>
+    <p>OBS:fique atento a compatibilidade do formato dos videos</p>
+    <h3>thumbnails</h3>
+    <p>para inserir uma thumbnail em seu video utilize o parametro <strong>poster</strong> e selecione a imagem que deseja inseirir</p>
+    <h3>inserirndo videos de sites de hospedagem</h3>
+    <p>video hospedado no YouTube</p>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QLCOpqXiVNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+    
+    <p>para hospedar um video do youtube em seu site você de acessar o video ir na opção de compartilhar e incorporar o video, assim será gerado um código e basta cola-lo em seu código</p>
+    
+    
+
+
+    <p><a href="ex007.html">Clique aqui</a> para acesar o proximo conteudo do estudo de CSS</p>
+    <p><a href="ex005.html">clique aqui</a> para voltar à apostila anterior</p>
+    
+</body>
+</html>

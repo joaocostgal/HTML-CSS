@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUDOS</title>
+    <style>
+        p{
+            font: normal 15px arial;
+            color: rgba(0, 0, 0, 0.712);
+        
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: purple;
+            text-decoration: none;
+        }
+        a:visited{
+            color: fuchsia;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: darkviolet;
+        }
+        a:active{
+            color: aqua;
+        }
+        a::after{
+            content: '[link]';
+            color:lawngreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apostila 009: Pseudo-elementos</h1>
+    <p>Para alterar as propriedades dos links basta:</p>
+    <pre>
+        a{
+            color: cor;
+            text-decoration: none;
+            }
+        a:visited{
+            color: cor2;
+            }
+        a:hover{
+            text-decoration: underline;
+            color: darkviolet;
+            }
+        a:active{
+            color: aqua;
+            }
+        a::after{
+            content: '[link]'
+            color: lawngreen;
+            }
+    </pre>
+    <p>isso deixará os link normais da <strong>cor1</strong> e os que já foram visitados na <strong>cor2</strong></p>
+    <pre>
+        a:visited{
+            color: cor2;
+    </pre>
+    <p>enquanto o <strong>:hover</strong> é a interatividade pela sobreposição do cursor do mouse</p>
+    <pre>
+        a:hover{
+            text-decoration: underline;
+            color: darkviolet;
+            }
+    </pre>
+    <p>o Pseudo-elementos <strong>:active</strong> modificará o link no memoento do clique</p>
+    <pre>
+        a:active{
+            color: aqua;
+            }
+    </pre>
+    <h2>Pseudo elementos devem ter duas vezes os :. Exemplo:</h2>
+    <pre>
+        a::after{
+            content:' [link]';
+            color: lawngreen;
+            } 
+    </pre>
+    <p>você pode utiliza um Pseudo-elementos em uma classe</p>
+    <pre>
+        .classe::pseudo-elemento
+    </pre>
+    <p>porntuação para CSS</p>
+    <ul type="none">
+        <li># = id</li>
+        <li>. = class</li>
+        <li>: = pseudo-classse</li>
+        <li>:: = pseudo-elemento</li>
+        <li>> = children(filiado)</li>
+    </ul>
+    <h2>links</h2>
+    <ul type="none">
+        <li><a href="https://gustavoguanabara.github.io">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/">Canal do curso em video</a></li>
+        <li><a href="https://www.cursoemvideo.com">Site do Curso em video</a></li>
+    </ul>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><a href="ex012.html">Clique aqui</a> para acesar o proximo conteudo do estudo de HTML</p>
+    <p><a href="ex010.html">clique aqui</a> para voltar à apostila anterior</p>
+</body>
+</html>

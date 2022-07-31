@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUDOS</title>
+    <style>
+        p{
+            font: normal 15px arial;
+            color: rgba(0, 0, 0, 0.712);
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Apostila 007: CSS</h1>
+    <h2>Tipografia</h2>
+    <p>tipografia é o estudo referente a fontes e letras, fazendo com q seu texto fique mais organizado e atrativo</p>
+    <h2>fontes</h2>
+    <p>medidas absolutas</p>
+    <ul>
+        <li>cm</li>
+        <li>mm</li>
+        <li>in</li>
+        <li>px</li>
+        <li>pt</li>
+        <li>pc</li>
+    </ul>
+    <p>medidas ralativas</p>
+    <ul>
+        <li>em</li>
+        <li>ex</li>
+        <li>rem</li>
+        <li>vn</li>
+        <li>vh</li>
+        <li>%</li>
+    </ul>
+    <p>o comando que mmuda a font é /font-family:</p>
+    <p>o tamanho é /font-size:</p>
+     <p>modificadores de fontes</p>
+     <ul>
+        <li>weight: peso(lighter, normal, bold, bolder)</li>
+        <li>width: largura</li>
+        <li>height: altura</li>
+     </ul>
+    <p>as fotes são definidas em familias, onde dependerá da fonte que você escolher para a que modificação seja possível</p>
+    <pre>
+        Exmplo:
+            font-size: 1em;
+            font-weight: bolder;
+            font-style: italic;
+            text-decoration: underline;
+    </pre>
+    <p>para voc utilizar uma fonte que não está instalada no seu computador</p>
+    <p>acesse o google fontes para importar um fonte externa na regra <strong>@import</strong></p>
+    <pre>
+        Exemplo:
+            @import url('link do google fontes');
+        OU
+            @font-face{
+                scr: url('link da fonte') format('opentype')
+            }
+    </pre>
+    <h2>Tipos de alinhamentes de textos</h2>
+    <p>tipos</p>
+    <ul>
+        <li>a esquerda:</li>
+        <li>a direita:</li>
+        <li>central</li>
+    </ul>
+    <p>Exemplo</p>
+    <pre>
+        style
+            bode{
+                font: normal 16px Arial, Verdana, serif;
+                text-align: left;
+                }
+   
+    isso deixar o texto do body da página alinha com a esquerda
+    
+            h1{
+                text-align: right;
+            }
+            
+    isso deixara os titulos h1 alinhados á direita, 
+    pois o comando a ser redigido por último se sobressai
+    </pre>
+    <p>utilizer o comando <strong>text-indent</strong> para por um espaçamento para o paragráfo</p>
+    
+    
+    
+    
+    <p><a href="ex009.html">Clique aqui</a> para acesar o proximo conteudo do estudo de HTML</p>
+    <p><a href="ex007.html">clique aqui</a> para voltar à apostila anterior</p>
+</body>
+</html>
