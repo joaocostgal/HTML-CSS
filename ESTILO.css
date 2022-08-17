@@ -30,7 +30,8 @@ main{
 }
 body{
     background-color: rgb(36, 64, 75);
-    padding: auto;
+    padding: 0px;
+    margin: 0px;
 }
 input{
     background-color: rgb(3, 29, 46);
