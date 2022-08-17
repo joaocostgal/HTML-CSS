@@ -9,8 +9,9 @@ h1{
 }
 h2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px;
+    margin: 0px;
     text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.308);
 }
 h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,12 +23,14 @@ p{
     margin: 5px;
 }
 main{
-    width: 390px;
+    width: 380px;
     margin: auto;
     background-color: white;
+    padding: 5px;
 }
 body{
     background-color: rgb(36, 64, 75);
+    padding: auto;
 }
 input{
     background-color: rgb(3, 29, 46);
