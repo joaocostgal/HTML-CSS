@@ -41,6 +41,7 @@ input{
     text-align: center;
     width: 49%;
     margin: none;
+    cursor: pointer;
     
 }
 input:hover{
@@ -52,6 +53,7 @@ nav{
 }
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 a:visited{
     text-decoration: none;
