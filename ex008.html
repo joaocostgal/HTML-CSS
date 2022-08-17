@@ -5,15 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESTUDOS</title>
-    <style>
-        p{
-            font: normal 15px arial;
-            color: rgba(0, 0, 0, 0.712);
-        
-        }
-    </style>
+    <link rel="stylesheet" href="ESTILO.css">
 </head>
 <body>
+    <main>
     <h1>Apostila 007: CSS</h1>
     <h2>Tipografia</h2>
     <p>tipografia é o estudo referente a fontes e letras, fazendo com q seu texto fique mais organizado e atrativo</p>
@@ -56,11 +51,11 @@
     <p>acesse o google fontes para importar um fonte externa na regra <strong>@import</strong></p>
     <pre>
         Exemplo:
-            @import url('link do google fontes');
+        @import url('link do google fontes');
         OU
-            @font-face{
-                scr: url('link da fonte') format('opentype')
-            }
+        @font-face{
+        scr: url('link da fonte') format('opentype')
+        }
     </pre>
     <h2>Tipos de alinhamentes de textos</h2>
     <p>tipos</p>
@@ -71,27 +66,33 @@
     </ul>
     <p>Exemplo</p>
     <pre>
-        style
-            bode{
-                font: normal 16px Arial, Verdana, serif;
-                text-align: left;
-                }
-   
-    isso deixar o texto do body da página alinha com a esquerda
-    
-            h1{
-                text-align: right;
+    style
+        bode{
+            font: normal 16px Arial, Verdana, serif;
+            text-align: left;
             }
+   
+    isso deixar o texto do body da página alinha 
+    com a esquerda
+    
+        h1{
+            text-align: right;
+        }
             
     isso deixara os titulos h1 alinhados á direita, 
-    pois o comando a ser redigido por último se sobressai
+    pois o comando a ser redigido por 
+    último se sobressai
     </pre>
     <p>utilizer o comando <strong>text-indent</strong> para por um espaçamento para o paragráfo</p>
     
     
     
     
-    <p><a href="ex009.html">Clique aqui</a> para acesar o proximo conteudo do estudo de HTML</p>
-    <p><a href="ex007.html">clique aqui</a> para voltar à apostila anterior</p>
+    <h1>Próximo conteúdo</h1>
+    <nav>
+        <a href="ex007.html"><input type="button" value="APOSTILA 006"></a>
+        <a href="ex009.html"><input type="button" value="APOSTILA 008"></a>    
+    </nav>
+    </main>
 </body>
 </html>

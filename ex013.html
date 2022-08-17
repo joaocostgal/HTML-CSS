@@ -5,14 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ESTUDOS</title>
-    <style>
-    p{
-        color: rgba(0, 0, 0, 0.753);
-    }   
-    </style>
+    <link rel="stylesheet" href="ESTILO.css">
 </head>
 <body>
-    <h1>Apostila 010: Modelos de caixas</h1>
+    <main>
+    <h1>Apostila 012: Configurações CSS</h1>
     <h2>box-level</h2>
     <p>parágrafos também são exemplos de caixas box-level, 
         mas os <a href="">links são exmplos de caixas inline-level</a>. 
@@ -20,44 +17,44 @@
     <h2>comandos Css para box-level e inline-level</h2>
         <pre>
         
-            height: 300px; = altura da box
-            width: 300px; = lados da box
-            background-color: azure; = cor de fundo   
+        height: 300px; = altura da box
+        width: 300px; = lados da box
+        background-color: azure; = cor de fundo   
             
-            border = comanos para bordas
+        border = comanos para bordas
             
-            border-width: 10px; = tamanho da borda da box
-            border-style: solid; = estilo da borda da box
-            border-color: brown; =cor da borda da box
+        border-width: 10px; = tamanho da borda da box
+        border-style: solid; = estilo da borda da box
+        border-color: brown; =cor da borda da box
             
-            padding = comandos para espaçamento interno do conteúdo
+        padding = comandos para espaçamento interno
 
-            padding-top: 10px; = espaçamento do top
-            padding-right: 10px; = espaçamento da direita
-            padding-bottom: 5px;  =   espaçamento de baixo
-            padding-left: 5px; = espaçamente da esquerda
+        padding-top: 10px; = espaçamento do top
+        padding-right: 10px; = espaçamento da direita
+        padding-bottom: 5px;  =   espaçamento de baixo
+        padding-left: 5px; = espaçamente da esquerda
             
-            margin = comando da borda externa da box
+        margin = comando da borda externa da box
 
-            margin-top; 10px: margem de cima
-            margin-right: 10px; margem da direita
-            margin-bottom: 10px; margem de baixo
-            margin-left: 10px; = margem da esquerda
+        margin-top; 10px: margem de cima
+        margin-right: 10px; margem da direita
+        margin-bottom: 10px; margem de baixo
+        margin-left: 10px; = margem da esquerda
 
-            outline = comando para as linhas de fora da borda
+        outline = comando para as linhas de fora
             
-            outline-width: 10px; = largura da linha
-            outline-style: solid; = estilo da linha
-            outline-color: aqua; = cor da linha
+        outline-width: 10px; = largura da linha
+        outline-style: solid; = estilo da linha
+        outline-color: aqua; = cor da linha
         </pre>
         <p>OBS: o comando automatico segue a seguinte hierarquia</p>
         <pre>
-            Ex:
-                margin: auto;
-                    margin-top
-                    margin-right
-                    margin-bottom
-                    margin-left
+        Ex:
+        margin: auto;
+        margin-top
+        margin-right
+        margin-bottom
+        margin-left
             
         </pre>
         <p>seguindo o sentido horário de um relógio</p>
@@ -67,15 +64,17 @@
         </pre>  
         <p>OBS: Caso o valor das margens sejam iguais, ele deve ser anotado somente uma vez</p>
         <pre>
-            margin: 10px;
-            maring: 10px 20px; = neste caso o primeiro valor será referente
-                                 ao top e bottom e o outro será right e left
+        margin: 10px;
+        maring: 10px 20px; = neste caso o primeiro 
+                             valor será referente
+                             ao top e bottom e o outro
+                             será right e left
         </pre>
         <p>a simplificação de estilos, segue a seguinte hierarquia</p>
         <pre>
-            border-width: 5px;
-            border-style: solid;
-            border-color: black;
+        border-width: 5px;
+        border-style: solid;
+        border-color: black;
         </pre>
         <p>podendo ser simplificada para</p>
         <pre>
@@ -83,7 +82,7 @@
         </pre>
         <p> utilizer o comando display para alterar o modelo da box</p>
         <pre>
-            display: block; = deixará a box como box-level
+        display: block; = deixará a box como box-level
         </pre>
 
 
@@ -97,7 +96,11 @@
 
 
 
-    <p><a href="ex014.html">Clique aqui</a> para acesar o proximo conteudo do estudo de HTML</p>
-    <p><a href="ex012.html">clique aqui</a> para voltar à apostila anterior</p>
+        <h1>Próximo conteúdo</h1>
+        <nav>
+            <a href="ex012.html"><input type="button" value="APOSTILA 011"></a>
+            <a href="ex014.html"><input type="button" value="APOSTILA 013"></a>    
+        </nav>
+</main>
 </body>
 </html>
