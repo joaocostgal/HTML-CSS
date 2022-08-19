@@ -29,12 +29,12 @@ main{
     padding: 5px;
 }
 body{
-    background-color: rgb(36, 64, 75);
+    background-color: rgb(27, 21, 41);
     padding: 0px;
     margin: 0px;
 }
 input{
-    background-color: rgb(3, 29, 46);
+    background-color: rgb(26, 1, 73);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 15px;
@@ -46,10 +46,14 @@ input{
     
 }
 input:hover{
-    background-color: aqua;
+    background-color: rgb(0, 255, 149);
+    border-radius: 15PX;
+    font-size: 20px;
+    transition: 0.5s;
+    
 }
 nav{
-    background-color: rgb(3, 29, 46);
+    background-color: rgb(26, 1, 73);
     
 }
 a{
