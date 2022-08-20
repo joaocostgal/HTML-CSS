@@ -56,8 +56,9 @@ nav{
     width: 390px;
     margin: -5px;
 }
-nav.menu{
-    width: 380px;
+input.menu{
+    
+    width: 390px;
 }
 a{
     text-decoration: none;
