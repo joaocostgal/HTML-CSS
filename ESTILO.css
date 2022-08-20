@@ -34,26 +34,29 @@ body{
     margin: 0px;
 }
 input{
+    display: row;
     background-color: rgb(26, 1, 73);
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 15px;
     border: none;
     text-align: center;
-    width: 49%;
     margin: none;
     cursor: pointer;
-    
+    width: 188px;
 }
 input:hover{
     background-color: rgb(0, 255, 149);
     transition: 0.5s;
     
+    
 }
 nav{
     background-color: rgb(26, 1, 73);
-    
+    width: 380px;
 }
+
+
 a{
     text-decoration: none;
     cursor: pointer;
