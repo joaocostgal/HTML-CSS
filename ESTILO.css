@@ -1,7 +1,7 @@
 h1{
-    background-color: rgb(68, 92, 102);
+    background-color: rgb(29, 4, 100);
     color: white;
-    margin: 0px;
+    margin: -5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 25px;
     text-align: center;
@@ -43,7 +43,7 @@ input{
     text-align: center;
     margin: none;
     cursor: pointer;
-    width: 188px;
+    width: 193px;
 }
 input:hover{
     background-color: rgb(0, 255, 149);
@@ -52,7 +52,8 @@ input:hover{
 
 nav{
     background-color: rgb(26, 1, 73);
-    width: 380px;
+    width: 390px;
+    margin: -5px;
 }
 nav.menu{
     width: 380px;
